@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders SearchInput correctly 1`] = `
+<TextInput
+  allowFontScaling={true}
+  rejectResponderTermination={true}
+  style={
+    Object {
+      "backgroundColor": "#E6EBE0",
+      "borderColor": "#000",
+      "borderRadius": 4,
+      "borderWidth": 2,
+      "marginBottom": 25,
+      "marginTop": 100,
+      "width": 200,
+    }
+  }
+  underlineColorAndroid="transparent"
+/>
+`;

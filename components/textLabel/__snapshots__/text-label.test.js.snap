@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Default TextLabel correctly 1`] = `
+<Text>
+  Hello!
+</Text>
+`;
+
+exports[`renders Dynamic TextLabel correctly 1`] = `
+<Text>
+  Bonjour!
+</Text>
+`;

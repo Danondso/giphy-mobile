@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders SearchInput correctly 1`] = `
+<View
+  style={
+    Object {
+      "padding": 12,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": undefined,
+      }
+    }
+    style={
+      Object {
+        "height": 250,
+        "width": 250,
+      }
+    }
+  />
+</View>
+`;
