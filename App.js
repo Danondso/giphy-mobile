@@ -4,6 +4,7 @@ import GifList from "./components/gifList/gifList";
 import SearchBar from "./components/searchBar/searchBar";
 
 const API_KEY = "VOHEiY1w8OzCgaBdtKgPtcMWuqyJqQ4X";
+//https://coolors.co/30bced-ed6a5a-f4f1bb-9bc1bc-e6ebe0 <- palette
 //`https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=&limit=25&offset=0&rating=G&lang=en`
 export default function App() {
   const [gifs, setGifs] = useState([]);
