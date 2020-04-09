@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { StyleSheet, ScrollView } from "react-native";
+import { StyleSheet, SafeAreaView } from "react-native";
 import GifList from "./components/gifList/gifList";
 import SearchBar from "./components/searchBar/searchBar";
 
@@ -43,10 +43,13 @@ export default function App() {
   };
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
-      <SearchBar handleSearch={fetchGifs} />
-      <GifList gifs={gifs} handleEndReached={handleEndReached} />
-    </ScrollView>
+    <SafeAreaView style={styles.container}>
+      <GifList
+        header={<SearchBar handleSearch={fetchGifs} />}
+        gifs={gifs}
+        handleEndReached={handleEndReached}
+      />
+    </SafeAreaView>
   );
 }
 
